@@ -187,7 +187,7 @@ h2 {
     width: 100%;
 }
 
-li {
+.navbar ul li {
     list-style: none;
 }
 
