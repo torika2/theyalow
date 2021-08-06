@@ -1,0 +1,344 @@
+@font-face {
+  font-family: 'SegoeWP';
+  src: url(./assets/fonts/SegoeWP.woff);
+}
+@font-face {
+  font-family: 'AsapRegular';
+  src: url(./assets/fonts/Asap-Regular.ttf);
+}
+@font-face {
+  font-family: 'Lucida';
+  src: url(./assets/fonts/Lucida\ Sans\ Italic.ttf);
+}
+@font-face {
+  font-family: 'Narrow';
+  src: url(./assets/fonts/PTSansNarrow-Bold.ttf);
+}
+@font-face {
+  font-family: 'SegoeWPLight';
+  src: url(./assets/fonts/segoe-wp-light.ttf);
+}
+@font-face {
+  font-family: 'ptsregular';
+  src: url(./assets/fonts/PTSans-Regular.ttf);
+}
+@font-face {
+  font-family: 'openSans';
+  src: url(./assets/fonts/OpenSans-Regular.ttf);
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.position-relative{
+    position: relative;
+}
+.position-absolute {
+    position: absolute;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.third-section .image{
+    width:300px;
+    height: 233px;
+    background-image: url('./assets/img/third-section/monky.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.third-section .third-background{
+    background:#ec9e03;
+    margin-left: 30px;
+    width:300px;
+    height: 233px;
+}
+
+.third-section .third-background div{
+    padding: 20px;
+} 
+.third-section .first-background{
+    background: #ec9e03;
+    width:300px;
+    height: 233px;
+    color:white;
+}
+
+.third-section .first-background .first-text{
+    padding: 20px;
+    font-family: 'SegoeWP';
+}
+
+.d-flex {
+    display: flex;
+}
+
+
+/*==============================================================================================*/
+.first-section{
+    height: 566px;
+    background-image: url('./assets/img/first-section/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-only {
+    top: 29px;
+    left: 13%;
+    height: 80px;
+    width: 80px;
+}
+
+h2 {
+
+    margin-left: 93px;
+    color: #fff;
+    font-size: 41px;
+    font-family: 'Lucida';
+}
+.navbar {
+   float: right;
+   height: 80px;
+   margin-top: 65px;
+}
+
+.navbar ul {
+    margin-left: -16%; 
+    margin-top: 15px;
+    width: 454px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f5c506;
+    color: #9b7d08;
+    font-family: 'SegoeWPLight', sans-serif;
+    box-shadow: -6px -5px 1px -2px rgba(245, 197, 6, 0.56), -10px -10px 1px -2px rgba(245, 197, 6, 0.56);
+}
+
+.video-image-area .text{
+    padding: 50px;
+    padding-top: 70px;
+    padding-left: 0px;
+    margin-left: 70px;
+}
+
+.video-image-area .text div span{
+    font-size:63px;
+    text-align: center;
+}
+
+.video-image-area .text div{
+    text-align: center;
+}
+
+.video-image-area .text .first{
+    font-family: 'AsapRegular';
+    color:#f5c506;
+}
+
+.video-image-area .text .second{
+    font-family: 'AsapRegular';
+    color:white;
+}
+
+
+
+.navbar ul li a {
+    font-size: 17px;
+    font-weight: bold;
+}
+.navbar ul li a img {
+
+    padding-right: 10px;
+}
+.border {
+    width: 150px;
+    height: 43px;
+    border-right-style: solid;
+    border-color: #9b7d08;
+    border-left-style: solid;
+    border-width: 1px;
+}
+.border a {
+    margin-top: 10px;
+    padding-left: 15%;
+    position: absolute;
+}
+
+.w-100{
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+/*.content{
+    width: 919px;
+}*/
+
+a {
+    text-decoration: none;
+    color: #9b7d08;
+}
+
+.second-section .content div{
+    width: 300px;
+    border: solid 1px #d4d4d4;
+    border-top:none;
+    border-bottom:none;
+}
+.second-section .content{
+    height: 212px;
+}
+
+.second-section .content .text-align-center{
+     margin-top: 20px;
+     font-family: 'SegoeWP';
+     font-size:27px;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.third-section .first{
+    width: 341;
+    height: 341;
+}
+.float-right{
+    float: right;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.arrow{
+    background-color: #C69F0C;
+    height: 58px;
+    width: 33px;
+}
+
+.light{
+    background: #f5c506;
+}
+
+.video-image-area .video-image-place{
+    width: 550px;
+    height: 328px;
+    background-image: url('./assets/img/first-section/video.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.video-image-area {
+
+}
+/*.arrow2{
+    background-color: #C69F0C;
+    height: 58px;
+    width: 33px;
+}*/
+
+
+/*===============================================================================================*/
+.second-section{
+    height: 213px;
+    background-image: url('./assets/img/second-section/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 8px 0px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 4px;
+    z-index: 4;
+}
+
+.third-section{
+    height: 509px;
+    background-image: url('./assets/img/third-section/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+
+.third-section .content{
+    height: 509px;
+}
+
+.fouth-section{
+    height: 500px;
+    background-image: url('./assets/img/fouth-section/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first-section .slider{
+    bottom: 20px;
+    left: 70px;
+    z-index: 5;
+
+}
+
+.first-section .slider-background{
+    bottom: 20px;
+    left: 70px;
+    z-index: 4;
+}
+
+.first-section .volume{
+    bottom: 20px;
+    right: 40px;
+}
+
+.first-section .play{
+    z-index: 5;
+}
+
+.first-section .video-play{
+    bottom: 20px;
+    left: 39px;
+    z-index: 2;
+}
+.first-section .video-play-background{
+    opacity: 0.7;
+    bottom: 15px;
+    left: 30px;
+}
+
+.first-section .play-background{
+    z-index: 4;
+}
+
+.fifth-section{
+    height: 64px;
+    background:#4C4C4C;
+    box-shadow: black 0px 0px 0px 0px, black 5px 5px 5px 7px;
+}
+
+.third-section .content{
+    width: 1100px;
+}
+
+@media only screen and (max-width: 1300px){
+    .video-image-area .video-image-place{
+        margin-left:85px;
+    }
+}
