@@ -42,7 +42,7 @@
         <div class="d-flex justify-content-between w-100">
             <div class="d-flex justify-content-center align-items-center">
                 <div class="d-flex justify-content-center align-items-center arrow">
-                    <div>
+                    <div class="cursor-pointer">
                         <img src="./assets/img/first-section/arrow1.png">
                     </div>
                 </div>
@@ -52,8 +52,8 @@
                     <div>
                         <img src="./assets/img/play0.png" alt="">
                     </div>
-                    <div class="position-absolute slider">
-                        <img src="./assets/img/slider.png">
+                    <div class="position-absolute slider seen">
+                        <img src="./assets/img/first-section/seen.png">
                     </div>
                     <div class="position-absolute slider-background">
                         <img src="./assets/img/first-section/backslider.png">
@@ -89,7 +89,7 @@
             </div>
             <div class="d-flex justify-content-center align-items-center">
                 <div class="d-flex justify-content-center align-items-center arrow light">
-                    <div>
+                    <div class="cursor-pointer">
                         <img src="./assets/img/first-section/arrow2.png">
                     </div>
                 </div>
@@ -103,7 +103,7 @@
                 <div class="d-flex justify-content-center align-items-center">
                     <div>  
                         <div  class="text-align-center">
-                            <img src="./assets/img/cloud1.svg">
+                            <img class="cursor-pointer "src="./assets/img/cloud1.svg">
                         </div>
                         <div class="text-align-center">
                             BETTER DESIGN
@@ -116,7 +116,7 @@
                     <div>
                         
                         <div class="text-align-center">
-                            <img src="./assets/img/leaf1.svg">
+                            <img class="cursor-pointer" src="./assets/img/leaf1.svg">
                         </div>
                         <div class="text-align-center">
                             CUSTOMISE
@@ -127,9 +127,8 @@
             <div class="d-flex justify-content-center align-items-center">
                 <div class="d-flex justify-content-center align-items-center">
                     <div>
-                        
                         <div class="text-align-center">
-                            <img src="./assets/img/paperplane1.svg">
+                            <img class="cursor-pointer" src="./assets/img/paperplane1.svg">
                         </div>
                         <div class="text-align-center">
                             ITS FREE
@@ -140,20 +139,27 @@
         </div>
     </section>
 
-    <section class="w-100 position-relative third-section d-flex justify-content-center align-items-center">
+    <section class="w-100 position-relative third-section d-flex justify-content-center align-items-center" style="z-index: -1;">
         <div class="content">
             <div>
-                <p style="font-size: 29px;color:white;margin-left: 90px;font-family: 'SegoeWP';">
-                    LOREM IPSUM DOLOR
+                <p style="font-size: 37px;color:white;margin-left: 41px;font-family: 'SegoeWP';">
+                    LOREM IPSUM DOLOR SIT AMET
                 </p>
             </div>
             <div class=" d-flex justify-content-center align-items-center">
                 <div class="first-background">
                     <div class="first-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci-didunt ut</p>
                     </div>
+                    <img class="cursor-pointer" style="margin-left: 315px;" src="assets/img/third-section/plus.svg" alt="">
                 </div>
-                <div class="image">
+                <div class="second-background position-relative d-flex justify-content-center align-items-center">
+                    <div class="position-absolute">
+                        <img src="./assets/img/first-section/play0.png">
+                    </div>
+                    <div class="position-absolute">
+                        <img src="./assets/img/first-section/play.png">
+                    </div>
                 </div>
                 <div class="third-background position-relative">
                     <div class="position-absolute" style="top: 3px;right: 3px;color: white;font-size: 25px;">
@@ -164,65 +170,79 @@
                             <img src="./assets/img/twitter.png" alt="123">
                         </div>
                     </div>
-                    <div class="position-absolute" style="bottom:3px;right: 3px;color:white">
-                       +
+                    <div class="cursor-pointer position-absolute" style="bottom:1px;right: 3px;">
+                       <img src="assets/img/third-section/plus.svg" alt="">
                     </div>
+                </div>
+                
+            </div>
+            <div class="position-relative boxy" style="background: #ddb101; width: 113px; height: 56px; color: white;left: 3.909%; bottom: 1px;">
+                <div style="font-size: 30px; text-align: center;">
+                    <b class="position-absolute" style="right: 62px;"> 25</b>
+                </div>
+                <div style="text-align: center;color: #b56a26;">
+                    APRIL
+                </div>
+            </div>
+            <div class="position-relative" style="top: 71px; right: 100px;" >
+                <div class="cursor-pointer position-absolute" style="bottom:20px; left: 459px;">
+                    <img src="./assets/img/slider.png">
+                </div>
+                <div class="position-absolute" style="bottom:20px;z-index: -1;left: 212px;">
+                    <img src="./assets/img/third-section/lightslider.png">
                 </div>
             </div>
         </div>
-        <div class="position-absolute" style="background: #ddb101;bottom:123px;left: 185px;color: white;padding-left: 15px;padding-right: 15px;padding-bottom:4px;">
-            <div style="font-size: 30px; text-align: center;">
-                <b>25</b>
-            </div>
-            <div style="text-align: center;color: #b56a26;">
-                APRIL
-            </div>
-        </div>
-        <div class="position-absolute" style="bottom:20px;">
-            <img src="./assets/img/slider.png">
-        </div>
-        <div class="position-absolute" style="bottom:20px;z-index: -1;">
-            <img src="./assets/img/third-section/lightslider.png">
-        </div>
+        
     </section>
 
-    <section class="w-100 fouth-section">
+    <section class="w-100 fouth-section position-relative" style="z-index: -1;">
         <div class="content">
             <div class="w-100 text-align-center" style="padding-top: 48px;">
                 <span class="w-100" style="color:#f5c506;font-size: 43px;font-family: 'SegoeWP';">
                     LOREM IPSUM DOLOR SIT AMET
                 </span>
             </div>
-            <div class="d-flex">
+            <div class="d-flex justify-content-center align-items-center">
                 <div class="d-flex" style="margin-top: 50px;">
-                    <div style="margin-left: 140px;">
-                        <img src="./assets/img/fouth-section/screen.png" alt="">
+                    <div class="position-relative">
+                        <div class="position-absolute d-flex justify-content-center align-items-center sale" style="right: 227px;top:-44px;width: 117px;height: 117px; color:white; font-family: 'openSans'; z-index: 1;">
+                            <div>
+                                ITS 100% FREE
+                            </div>
+                        </div>
+                        <div style="margin-left: 140px; opacity: 0.5686274509803921;">
+                            <img src="./assets/img/fouth-section/screen.png" alt="">
+                        </div>
                     </div>
-                    <div style="margin-left: 30px;margin-top: 42px;">
+                    <div style="margin-left: 30px;margin-top: 42px; opacity: 0.47058823529411764;">
                         <img src="./assets/img/fouth-section/tablet.png" alt="">
                     </div>
-                    <div style="margin-left: 30px;margin-top: 152px;">
+                    <div style="margin-left: 30px;margin-top: 152px; opacity: 0.5686274509803921;">
                         <img src="./assets/img/fouth-section/phone.png" alt="">
                     </div>
                 </div>
-                <div style="margin-left: 30px;margin-top: 50px;color:#848483;">
+                <div class="fthlist"style="margin-left: 30px;margin-top: 50px;list-style-image: url('assets/img/fouth-section/list.png');">
                     <ul>
-                        <li>Sed ut perspiciatis unde omnis</li>
-                        <li style="margin-top: 15px;">Lorem ipsum dolor sit amet, consectetur adipisicing </li>
-                        <li style="margin-top: 15px;">Sed ut perspiciatis unde omnis copy</li>
-                        <li style="margin-top: 15px;">SLorem ipsum dolor sit amet, consectetur adipisicing  copy</li>
+                        <li><span style="color:#848483;font-size: 22px;font-family: ptsregular;">Sed ut perspiciatis unde omnis</span></li>
+                        <li style="margin-top: 15px;"><span style="color:#848483;font-size: 22px;font-family: ptsregular;">Lorem ipsum dolor sit amet, con- sectetur adipisicing </span></li>
+                        <li style="margin-top: 15px;"><span style="color:#848483;font-size: 22px;font-family: ptsregular;">Sed ut perspiciatis unde omnis copy</span></li>
+                        <li style="margin-top: 15px;"><span style="color:#848483;font-size: 22px;font-family: ptsregular;">Lorem ipsum dolor sit amet, con- sectetur adipisicing  copy</span></li>
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="position-absolute">
-            
         </div>
     </section>
 
     <section class="w-100 fifth-section">
         <div class="content">
-            
+            <div class="position-relative cursor-pointer">
+                 <div class="position-absolute" style="top:5px; left:14.615%;">
+                     <img class="position-absolute" height="55" src="./assets/img/first-section/logo1.png">
+                     <img class="position-absolute"  height="55" src="./assets/img/first-section/logo2.png">
+                     <h1 class="position-absolute" style="font-size: 29px;color:white;font-family: 'Lucida';left: 55px;top: -11px;">THEYALOW</h1>
+                 </div>                  
+            </div>
         </div>
     </section>
 
