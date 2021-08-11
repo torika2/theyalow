@@ -48,6 +48,10 @@ body{
     justify-content: center;
 }
 
+.justify-content-between{
+    justify-content: space-between;
+}
+
 .align-items-center{
     align-items: center;
 }
@@ -56,36 +60,12 @@ body{
     cursor: pointer;
 }
 
-.third-section .image{
-    width:300px;
-    height: 233px;
-    background-image: url('./assets/img/third-section/monky.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+.align-self{
+    align-self: center;
 }
-
-.third-section .third-background{
-    background:#ec9e03;
-    margin-left: 30px;
-    width:300px;
-    height: 233px;
+.justify-self{
+    justify-self: center;
 }
-
-.third-section .third-background div{
-    padding: 20px;
-} 
-.third-section .first-background{
-    background: #ec9e03;
-    width:300px;
-    height: 233px;
-    color:white;
-}
-
-.third-section .first-background .first-text{
-    padding: 20px;
-    font-family: 'SegoeWP';
-}
-
 .d-flex {
     display: flex;
 }
@@ -107,7 +87,7 @@ body{
 }
 
 h2 {
-
+    bottom: -25px;
     margin-left: 93px;
     color: #fff;
     font-size: 41px;
@@ -159,7 +139,9 @@ h2 {
     color:white;
 }
 
-
+.video-image-area img{
+    cursor: pointer;
+}
 
 .navbar ul li a {
     font-size: 17px;
@@ -187,9 +169,61 @@ h2 {
     width: 100%;
 }
 
-li {
+.navbar ul li {
     list-style: none;
 }
+
+.first-section .seen{
+    bottom: 20px;
+    left: 70px;
+    z-index: 5;
+}
+.first-section .seen img{
+    width: 180px;
+    height: 12px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    object-fit: cover;
+}
+
+.first-section .slider-background{
+    bottom: 20px;
+    left: 70px;
+    z-index: 4;
+}
+.first-section .slider-background img{
+    bottom: 20px;
+    left: 70px;
+    z-index: 4;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+
+.first-section .volume{
+    bottom: 20px;
+    right: 40px;
+}
+
+.first-section .play{
+    z-index: 5;
+}
+
+.first-section .video-play{
+    bottom: 20px;
+    left: 39px;
+    z-index: 2;
+}
+.first-section .video-play-background{
+    opacity: 0.7;
+    bottom: 15px;
+    left: 30px;
+}
+
+.first-section .play-background{
+    z-index: 4;
+}
+
 
 /*.content{
     width: 919px;
@@ -220,16 +254,9 @@ a {
     text-align: center;
 }
 
-.third-section .first{
-    width: 341;
-    height: 341;
-}
+
 .float-right{
     float: right;
-}
-
-.justify-content-between{
-    justify-content: space-between;
 }
 
 .arrow{
@@ -251,9 +278,16 @@ a {
     background-size: cover;
 }
 
-.video-image-area {
-
+.second-section{
+    height: 213px;
+    background-image: url('./assets/img/second-section/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 8px 0px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 4px;
+    z-index: 4;
 }
+
+
 /*.arrow2{
     background-color: #C69F0C;
     height: 58px;
@@ -262,13 +296,47 @@ a {
 
 
 /*===============================================================================================*/
-.second-section{
-    height: 213px;
-    background-image: url('./assets/img/second-section/bg.png');
+
+.third-section .second-background{
+    width:315px;
+    height: 233px;
+    background-image: url('./assets/img/third-section/monky.png');
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 8px 0px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 4px;
-    z-index: 4;
+    background-position: center;
+    
+}
+
+
+.third-section .third-background{
+    background:#ec9e03;
+    margin-left: 30px;
+    width:329px;
+    height: 233px;
+}
+
+.third-section .third-background div{
+    padding: 20px;
+} 
+.third-section .first-background{
+    background: #ec9e03;
+    width:341px;
+    height: 233px;
+    color:white;
+}
+
+.third-section .first-background .first-text{
+    padding-left: 31px;
+    font-size: 29px;
+    font-family: 'SegoeWPLight';
+    word-wrap: break-word;
+    width: 272px;
+    height: 174px;
+}
+
+.third-section .first{
+    width: 341;
+    height: 341;
 }
 
 .third-section{
@@ -281,7 +349,20 @@ a {
 
 .third-section .content{
     height: 509px;
+    width: 1100px;
 }
+
+.boxy {
+    min-width: 113px;
+    min-height: 86px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+
 
 .fouth-section{
     height: 500px;
@@ -290,41 +371,18 @@ a {
     background-size: cover;
 }
 
-.first-section .slider{
-    bottom: 20px;
-    left: 70px;
-    z-index: 5;
-
+.fouth-section .sale{
+    background-image: url('./assets/img/fouth-section/circle.svg');
+    border-radius: 50%;
+    background-size: cover;
 }
 
-.first-section .slider-background{
-    bottom: 20px;
-    left: 70px;
-    z-index: 4;
-}
-
-.first-section .volume{
-    bottom: 20px;
-    right: 40px;
-}
-
-.first-section .play{
-    z-index: 5;
-}
-
-.first-section .video-play{
-    bottom: 20px;
-    left: 39px;
-    z-index: 2;
-}
-.first-section .video-play-background{
-    opacity: 0.7;
-    bottom: 15px;
-    left: 30px;
-}
-
-.first-section .play-background{
-    z-index: 4;
+.fouth-section .fthlist {
+    margin-top: 161px;
+    margin-left: 79px;
+    color: white;
+    width: 345px;
+    line-height: 1.2;
 }
 
 .fifth-section{
@@ -333,9 +391,7 @@ a {
     box-shadow: black 0px 0px 0px 0px, black 5px 5px 5px 7px;
 }
 
-.third-section .content{
-    width: 1100px;
-}
+
 
 @media only screen and (max-width: 1300px){
     .video-image-area .video-image-place{
